@@ -24,7 +24,6 @@ app.UseDefaultFiles();
 app.UseStaticFiles();
 app.UseMiddleware<JwtMiddleware>();
 
-// Global error handler — luon tra ve JSON, khong bao gio plain text
 app.UseExceptionHandler(errApp => errApp.Run(async ctx => {
     ctx.Response.StatusCode  = 500;
     ctx.Response.ContentType = "application/json";
@@ -38,4 +37,6 @@ app.UseExceptionHandler(errApp => errApp.Run(async ctx => {
 app.MapControllers();
 app.MapFallbackToFile("index.html");
 
-app.Run();
+// Railway inject PORT qua env variable
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+app.Run($"http://0.0.0.0:{port}");
