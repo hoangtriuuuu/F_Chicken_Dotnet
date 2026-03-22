@@ -1,0 +1,59 @@
+/* ═══════════════════════════════════════════
+   F-CHICKEN — Design Tokens
+   Nguon goc: DesignTokens.css (Vue project)
+   ═══════════════════════════════════════════ */
+:root {
+  /* Brand Colors */
+  --color-primary: #B5121B;
+  --color-primary-dark: #8E0E15;
+  --color-primary-light: #D4343D;
+  --color-primary-glow: rgba(181, 18, 27, 0.08);
+
+  /* Accent */
+  --color-accent: #D4890C;
+  --color-accent-warm: #F5A623;
+  --color-accent-glow: rgba(212, 137, 12, 0.08);
+
+  /* Surfaces */
+  --color-background: #FAF9F6;
+  --color-surface: #FFFFFF;
+  --color-surface-soft: #F5F0EB;
+
+  /* Text */
+  --color-text: #2D2926;
+  --color-text-secondary: #6B6560;
+  --color-text-muted: #9E9891;
+
+  /* Borders */
+  --color-border: #E8E2DB;
+
+  /* Semantic */
+  --color-success: #2E7D4F;
+  --color-warning: #D4890C;
+  --color-danger: #B5121B;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(45, 41, 38, 0.04);
+  --shadow-md: 0 4px 16px rgba(45, 41, 38, 0.06);
+  --shadow-lg: 0 8px 30px rgba(45, 41, 38, 0.08);
+  --shadow-card: 0 4px 20px rgba(45, 41, 38, 0.06);
+  --shadow-card-hover: 0 12px 40px rgba(45, 41, 38, 0.12);
+  --shadow-primary: 0 4px 14px rgba(181, 18, 27, 0.18);
+
+  /* Transitions */
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 0.15s ease;
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Z-index */
+  --z-header: 200;
+  --z-drawer: 300;
+  --z-toast: 500;
+}
