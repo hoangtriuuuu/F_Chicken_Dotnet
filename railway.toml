@@ -1,6 +1,6 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "FChicken.API/Dockerfile"
+dockerfilePath = "Dockerfile"
 
 [deploy]
 healthcheckPath = "/"
