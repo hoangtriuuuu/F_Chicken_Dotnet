@@ -30,7 +30,12 @@
 }
 .logo span { color: var(--color-text); }
 
-.nav { display: flex; gap: 0; flex: 1; overflow: hidden; }
+.nav {
+  display: flex;
+  gap: 0;
+  flex: 1;
+  overflow-x: auto; /* đẹp nhất */
+}
 .nav-btn {
   padding: 7px 11px;
   border-radius: var(--radius-md);
