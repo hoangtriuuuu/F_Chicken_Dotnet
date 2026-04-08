@@ -45,3 +45,4 @@ D:\FPT\portfolio\FChicken-export\FChicken.API\obj\Debug\net10.0\compressed\6o0hd
 D:\FPT\portfolio\FChicken-export\FChicken.API\obj\Debug\net10.0\compressed\z5fbxaw9ab-{0}-geuh38wpzb-geuh38wpzb.gz
 D:\FPT\portfolio\FChicken-export\FChicken.API\obj\Debug\net10.0\compressed\aoa1lwqrdw-{0}-kgllpkc6ph-kgllpkc6ph.gz
 D:\FPT\portfolio\FChicken-export\FChicken.API\obj\Debug\net10.0\compressed\n0z5fvbcg4-{0}-xlp0eqgheo-xlp0eqgheo.gz
+D:\FPT\portfolio\FChicken-export\FChicken.API\obj\Debug\net10.0\FChicken.API.sourcelink.json
