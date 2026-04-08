@@ -42,19 +42,23 @@ const Auth = {
     const user = this._user;
     const loggedIn = !!user;
 
+    // Header buttons
     const btnLogin = document.getElementById('btnLogin');
     const btnProfile = document.getElementById('btnProfile');
     const btnAdmin = document.getElementById('nav-admin');
-    const mBtnAdmin = document.getElementById('mnav-admin');
 
     if (btnLogin) btnLogin.style.display = loggedIn ? 'none' : 'flex';
     if (btnProfile) btnProfile.style.display = loggedIn ? 'flex' : 'none';
 
-    const showAdmin = loggedIn && this.isAdmin();
-    if (btnAdmin) btnAdmin.style.display = showAdmin ? 'flex' : 'none';
-    if (mBtnAdmin) mBtnAdmin.style.display = showAdmin ? 'block' : 'none';
+    // Show admin nav only for admins
+    if (btnAdmin) btnAdmin.style.display = (loggedIn && this.isAdmin()) ? 'flex' : 'none';
 
+    // Sync mobile admin button
+    const mBtnAdmin = document.getElementById('mnav-admin');
+    if (mBtnAdmin) mBtnAdmin.style.display = (loggedIn && this.isAdmin()) ? 'block' : 'none';
+
+    // User avatar / name in header
     const userNameEl = document.getElementById('headerUserName');
-    if (userNameEl && user) userNameEl.textContent = user.FullName?.split(' ').pop() ?? '';
+    if (userNameEl && user) userNameEl.textContent = user.FullName.split(' ').pop();
   }
 };
