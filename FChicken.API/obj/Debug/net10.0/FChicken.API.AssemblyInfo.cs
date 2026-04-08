@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FChicken.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cb281f1c4230c8ca59a1fd3ef348901d6b2c926")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcb37250c30dbce3265df27bec338530d2a42fae")]
 [assembly: System.Reflection.AssemblyProductAttribute("FChicken.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FChicken.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
